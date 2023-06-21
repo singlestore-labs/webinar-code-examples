@@ -1,8 +1,8 @@
 # Using GPT for Product Recommendation Engines
 
-Join us on June 27th for an exciting webinar titled "Using GPT for Product Recommendation Engines," featuring @wesdottoday from SingleStore. In this webinar, we will explore how GPT (Generative Pre-trained Transformer) can revolutionize your product recommendation engines, providing personalized and relevant suggestions to your customers.
+Join us on June 27th for an exciting webinar titled "Using GPT for Product Recommendation Engines," featuring [@wesdottoday](https://github.com/wesdottoday) from SingleStore. In this webinar, we will explore how GPT (Generative Pre-trained Transformer) can revolutionize your product recommendation engines, providing personalized and relevant suggestions to your customers.
 
-Don't miss this opportunity to gain valuable insights from @wesdottoday and learn how to leverage GPT for powerful product recommendation engines. Register now to secure your spot for this informative webinar!
+Don't miss this opportunity to gain valuable insights from [@wesdottoday](https://github.com/wesdottoday) and learn how to leverage GPT for powerful product recommendation engines. Register now to secure your spot for this informative webinar!
 
 ## Discussion Topics
 

@@ -13,3 +13,5 @@ Don't miss this chance to learn from the expert and gain valuable insights on ho
 - Absorb practical techniques and strategies for building intelligent GPT applications.
 - Delve into the power of LangChain's scalable, distributed architecture and OpenAI's advanced machine learning models for GPT.
 
+## Free Trial!
+Don't forget to try this for yourself by signing up for a [free trial of SingleStoreDB](https://www.singlestore.com/cloud-trial/?utm_campaign=7014X000002edsdQAA&utm_medium=webinar&utm_source=singlestore&utm_content=webinar-github) today!

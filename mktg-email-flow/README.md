@@ -11,3 +11,5 @@ The spotlight of the webinar, however, will be Sarung’s demo of a modern gener
 - Discover Generative AI and LLM capabilities for application development, focusing on user experience, engagement, and conversion rates optimization.
 - Understand how to harness vector embeddings for mass personalization at scale, delivering real-time, tailored experiences.
 - Navigate the critical considerations around privacy and security in AI-powered applications, ensuring data integrity and robustness.
+
+Sign up for a [free trial](http://bit.ly/beyond-vectors-raffle) of SingleStoreDB with a $600 Credit today!

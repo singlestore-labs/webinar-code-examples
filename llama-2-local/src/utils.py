@@ -52,7 +52,7 @@ def setup_dbqa():
                                                    chunk_overlap=cfg.CHUNK_OVERLAP)
     texts = text_splitter.split_documents(documents)
 
-    os.environ["SINGLESTOREDB_URL"] = "admin:83nnuP3IAHOig4inMZWmV8vtRLvEWtTk@svc-1581bd74-8c1f-4de2-b3c0-c72858bb7a02-dml.aws-london-1.svc.singlestore.com:3306/llamaindex_notebook_test"
+    os.environ["SINGLESTOREDB_URL"] = "placeholder"
     vectorstore = SingleStoreDB(embeddings, distance_strategy="DOT_PRODUCT", table_name="demo0")
 
     # if you want to build a new vectorstore, use the following line instead of the above

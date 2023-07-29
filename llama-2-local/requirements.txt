@@ -75,7 +75,7 @@ Pygments==2.15.1
 PyJWT==2.8.0
 PyMySQL==1.1.0
 pyOpenSSL==23.0.0
-pypdf==3.8.1
+pypdf==3.9.0
 pyproject_hooks==1.0.0
 PySocks==1.7.1
 python-box==7.0.1

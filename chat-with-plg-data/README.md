@@ -68,7 +68,7 @@ Below you'll find the instructions you need to follow in order to deploy this yo
     ```
 4. Run the docker container to see if it works
     ``` shell
-    docker run -p 0:0:0:0:5000/:5000 gpg4plg_generator:0.0.1 .
+    docker run gpg4plg_generator:0.0.1 .
     ```
     - Validate that the service starts and services are listening from your host at Port 5000.
     > Note: SingleStore is not responsible for the security ramifications from testing this demo. When in doubt, please work with your security team to use a proper testing environment.
@@ -122,8 +122,17 @@ Below you'll find the instructions you need to follow in order to deploy this yo
    S2_PASS=thisismypassword
    OPENAI_API_KEY=thisismyapikey
    ```
-FIXME: TO BE CONTINUED
+
 6. Build the docker container
     ``` shell
-    
+    docker build -t gpg4plg_webhook:0.0.1 -t gpg4plg_webhook:latest .
     ```
+7. Deploy the docker container
+
+    ``` shell
+    docker run -p 0:0:0:0:5000/:5000 gpg4plg_webhook:0.0.1 .
+    ```
+
+### Re-run the generator
+
+At this point you should be able to re-run the generator container and see data begin populating in your database.

@@ -6,5 +6,6 @@ CREATE TABLE IF NOT EXISTS actions (
     seg_received_at DATETIME,
     seg_sent_at DATETIME,
     seg_timestamp DATETIME,
-    user_id VARCHAR(255)
+    user_id VARCHAR(255),
+    embedding BLOB NOT NULL
 );

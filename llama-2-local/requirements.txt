@@ -42,7 +42,7 @@ Jinja2==3.1.2
 joblib==1.3.1
 jupyter_client==8.3.0
 jupyter_core==5.3.1
-langchain==0.0.236
+langchain==0.0.312
 langchainplus-sdk==0.0.20
 llama-cpp-python==0.1.77
 MarkupSafe==2.1.2

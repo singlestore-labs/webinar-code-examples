@@ -108,7 +108,7 @@ toml==0.10.2
 tomlkit==0.12.1
 torch==2.0.1
 torchvision==0.15.2
-tornado==6.3.2
+tornado==6.3.3
 tqdm==4.65.0
 traitlets==5.9.0
 transformers==4.31.0

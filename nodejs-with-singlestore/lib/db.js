@@ -1,10 +1,14 @@
 const { AI } = require("@singlestore/ai");
 const { SingleStoreClient } = require("@singlestore/client");
 const fs = require("fs");
+const path = require('path');
 require("dotenv").config();
 
 const ai = new AI({ openAIApiKey: process.env.OPENAI_API_KEY });
 const client = new SingleStoreClient({ ai });
+
+const certPath = path.join(__dirname, 'singlestore_bundle.pem');
+console.log('Looking for cert at:', certPath);
 
 const connection = client.connect({
   host: process.env.DB_HOST,
@@ -13,7 +17,7 @@ const connection = client.connect({
   database: process.env.DB_NAME,
   password: process.env.DB_PASSWORD,
   ssl: {
-    ca: fs.readFileSync("./singlestore_bundle.pem"),
+    ca: fs.readFileSync(certPath),
   },
 });
 
